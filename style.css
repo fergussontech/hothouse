@@ -23,10 +23,10 @@ a:visited {
 
 body {
   padding: 2rem;
-  font-family: sans-serif;
 }
 
 h1 {
+  font-family: "Mono", monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2rem;
@@ -37,9 +37,10 @@ h1 {
 }
 
 h2 {
+  font-family: "Mono", monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   color: white;
   text-align: center;
@@ -89,6 +90,8 @@ h2 {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   padding: 4rem;
 }
 
