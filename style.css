@@ -39,7 +39,7 @@ h1 {
 h2 {
   font-family: "Mono", monospace;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 2rem;
   color: white;
@@ -80,8 +80,8 @@ h2 {
 }
 
 .link:hover {
-  border: 1px solid #faff00;
-  color: #faff00;
+  border: 1px solid #97a981;
+  color: #97a981;
 }
 
 .link img {
@@ -99,17 +99,26 @@ h2 {
   opacity: 0.5;
 }
 
-.instagram {
+.instagram-button, .softlab-button {
   width: 75px;
   position: fixed;
-  transform-style: preserve-3d;
-  perspective: 200px;
   transition: 0.2s;
-  transition-property: transform;
   z-index: 5;
 }
 
-.instagram:hover {
+.instagram-button:hover, .softlab-button:hover {
+  transform: scale(1.1);
+}
+
+.softlab-button {
+  right: 20px;
+}
+
+.softlab-button img{
+  width: 75px;
+}
+
+.softlab-button:hover {
   transform: scale(1.1);
 }
 
