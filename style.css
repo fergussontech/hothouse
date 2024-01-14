@@ -44,6 +44,12 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.page-title {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
 .content {
   margin: 2rem auto;
   max-width: 400px;
@@ -141,6 +147,27 @@ h2 {
 }
 
 .artwork img {
+  width: 100%;
+}
+
+.dildo {
+  margin: 2rem auto 2rem auto;
+  padding: 2rem 0 2rem 0;
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.shop-photo {
+  width: 300px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 0;
+  transform: translateZ(-100px);
+}
+
+.shop-photo img {
   width: 100%;
 }
 
