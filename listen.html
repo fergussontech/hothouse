@@ -13,6 +13,17 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <script>
+      function cleanURL() {
+        var currentPath = window.location.pathname;
+
+        if (!currentPath.endsWith('/') && !currentPath.endsWith('.html')) {
+          window.history.replaceState({}, document.title, currentPath + '.html');
+        }
+      }
+      window.onload = cleanURL;
+    </script>
+
     <title>HOT HOUSE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +56,7 @@
     </a>
 
     <div class="header">
-      <a href="index.html">HOT HOUSE</a>
+      <a href="https://www.hothouse.world/">HOT HOUSE</a>
     </div>
     
     <div class="artwork">

@@ -13,6 +13,17 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <script>
+      function cleanURL() {
+        var currentPath = window.location.pathname;
+
+        if (!currentPath.endsWith('/') && !currentPath.endsWith('.html')) {
+          window.history.replaceState({}, document.title, currentPath + '.html');
+        }
+      }
+      window.onload = cleanURL;
+    </script>
+
     <title>HOT HOUSE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index-style.css">
@@ -47,7 +58,7 @@
 
     <div class="hot-house-text-container">
       <div class="hot-house-text">
-        <a href="index.html">HOT HOUSE</a>
+        <a href="https://www.hothouse.world/">HOT HOUSE</a>
       </div>
       <div class="hot-house-text">
         <a href="listen.html">LISTEN</a>
