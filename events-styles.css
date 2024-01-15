@@ -1,0 +1,17 @@
+.events-box {
+    max-width: 800px;
+    padding: 20px;
+    margin: 1rem auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.event-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 110px;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
