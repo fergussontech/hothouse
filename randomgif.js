@@ -1,8 +1,8 @@
-const adContainers = [
-    { id: 'ad-container-1', top: 175, left: 30 },
-    { id: 'ad-container-2', top: 440, left: 30 },
-    { id: 'ad-container-3', top: 175, right: 30 },
-    { id: 'ad-container-4', top: 440, right: 30 },
+const hotvidContainers = [
+    { id: 'hotvid-container-1', top: 175, left: 30 },
+    { id: 'hotvid-container-2', top: 440, left: 30 },
+    { id: 'hotvid-container-3', top: 175, right: 30 },
+    { id: 'hotvid-container-4', top: 440, right: 30 },
 ];
 
 const gifArray = [
@@ -37,17 +37,15 @@ function setRandomGif(container) {
 function updateLayoutForScreenWidth() {
     const screenWidth = window.innerWidth;
 
-    // Adjust the layout based on screen width
     if (screenWidth <= 650) {
-        // Change positioning for smaller screens
-        adContainers.forEach(container => {
+        hotvidContainers.forEach(container => {
             const element = document.getElementById(container.id);
             element.style.width = '200px';
             element.style.height = '167px';
         });
     } else {
         // Change positioning for larger screens
-        adContainers.forEach(container => {
+        hotvidContainers.forEach(container => {
             const element = document.getElementById(container.id);
             element.style.width = '300px';
             element.style.height = '250px';
@@ -55,7 +53,7 @@ function updateLayoutForScreenWidth() {
     }
 }
 
-adContainers.forEach(container => setRandomGif(container));
+hotvidContainers.forEach(container => setRandomGif(container));
 
 window.addEventListener('resize', updateLayoutForScreenWidth);
 

@@ -90,7 +90,7 @@ h2 {
 .footer {
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  margin: 4rem;
   font-size: 24px;
   cursor: pointer;
 }
@@ -142,14 +142,14 @@ h2 {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.ad-row {
+.hotvid-row {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding: 15px;
 }
 
-.ad-gif {
+.hotvid-gif {
   background-size: cover;
   z-index: 5;
   cursor: pointer;
@@ -170,7 +170,7 @@ h2 {
 }
 
 @media only screen and (min-width: 1200px) {
-  .ad-gif {
+  .hotvid-gif {
     position: fixed;
     width: 300px;
     height: 250px;
