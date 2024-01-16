@@ -88,5 +88,6 @@
 @media only screen and (max-width:650px) {
     .item-page-container {
         flex-direction: column;
+        max-width: 450px;
     }
 }
