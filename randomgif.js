@@ -10,7 +10,9 @@ const gifArray = [
     'gifs/wife.gif',
     'gifs/perform.gif',
     'gifs/craigslist.gif',
-    'gifs/fme.gif'
+    'gifs/fme.gif',
+    'gifs/24years.gif',
+    'gifs/lonely.gif'
 ];
 
 function getRandomIndex(array) {
