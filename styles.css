@@ -117,6 +117,8 @@ h2 {
 
 .buy-button {
   background-color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
   color: white;
   border: none;
   height: 40px;
