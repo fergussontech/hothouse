@@ -32,4 +32,29 @@ function setRandomGif(container) {
     }
 }
 
+function updateLayoutForScreenWidth() {
+    const screenWidth = window.innerWidth;
+
+    // Adjust the layout based on screen width
+    if (screenWidth <= 650) {
+        // Change positioning for smaller screens
+        adContainers.forEach(container => {
+            const element = document.getElementById(container.id);
+            element.style.width = '200px';
+            element.style.height = '150px';
+        });
+    } else {
+        // Change positioning for larger screens
+        adContainers.forEach(container => {
+            const element = document.getElementById(container.id);
+            element.style.width = '300px';
+            element.style.height = '250px';
+        });
+    }
+}
+
 adContainers.forEach(container => setRandomGif(container));
+
+window.addEventListener('resize', updateLayoutForScreenWidth);
+
+updateLayoutForScreenWidth();
