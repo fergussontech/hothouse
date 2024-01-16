@@ -43,7 +43,7 @@ function updateLayoutForScreenWidth() {
         adContainers.forEach(container => {
             const element = document.getElementById(container.id);
             element.style.width = '200px';
-            element.style.height = '150px';
+            element.style.height = '167px';
         });
     } else {
         // Change positioning for larger screens
