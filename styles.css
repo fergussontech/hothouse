@@ -58,6 +58,12 @@ h2 {
   margin-bottom: 2rem;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 .main-text{
   cursor: pointer;
 }
@@ -122,26 +128,6 @@ h2 {
   width: 75px;
 }
 
-.buy-button {
-  background-color: black;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  color: white;
-  border: none;
-  height: 40px;
-  width: 110px;
-  margin: 10px 0;
-  cursor: pointer;
-}
-
-.buy-button:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.buy-button:active {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
 .hotvid-row {
   display: flex;
   justify-content: center;
@@ -153,6 +139,31 @@ h2 {
   background-size: cover;
   z-index: 5;
   cursor: pointer;
+}
+
+.buy-button {
+  background-color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.buy-button:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#sold-out {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: not-allowed;
 }
 
 @media only screen and (max-width: 650px) {
