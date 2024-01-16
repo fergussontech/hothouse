@@ -149,35 +149,36 @@ h2 {
   }
 }
 
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .ad-gif {
     position: fixed;
     width: 300px;
     height: 250px;
     z-index: 5;
+    cursor: pointer;
   }
   
   #gif1 {
-    background-image: url('gifs/1.gif');
+    background-image: url('gifs/cute.gif');
     top: 175px;
     left: 30px;
   }
   
   #gif2 {
-    background-image: url('gifs/2.gif');
+    background-image: url('gifs/wife.gif');
     top: 440px;
     left: 30px;
   }
   
   #gif3 {
-    background-image: url('gifs/3.gif');
+    background-image: url('gifs/perform.gif');
     top: 175px;
     right: 30px;
   }
   
   #gif4 {
-    background-image: url('gifs/3.gif');
+    background-image: url('gifs/craigslist.gif');
     top: 440px;
     right: 30px;
   }
-} */
+}
