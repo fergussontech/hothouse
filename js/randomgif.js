@@ -6,13 +6,13 @@ const hotvidContainers = [
 ];
 
 const gifArray = [
-    '../gifs/cute.gif',
-    '../gifs/wife.gif',
-    '../gifs/perform.gif',
-    '../gifs/craigslist.gif',
-    '../gifs/fme.gif',
-    '../gifs/24years.gif',
-    '../gifs/lonely.gif'
+    '../images/gifs/cute.gif',
+    '../images/gifs/wife.gif',
+    '../images/gifs/perform.gif',
+    '../images/gifs/craigslist.gif',
+    '../images/gifs/fme.gif',
+    '../images/gifs/24years.gif',
+    '../images/gifs/lonely.gif'
 ];
 
 function getRandomIndex(array) {
